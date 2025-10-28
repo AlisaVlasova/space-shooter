@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Space Shooter — PIXI + TypeScript</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0d0f17;
+        height: 100%;
+        font-family:
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          sans-serif;
+      }
+      #game {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      .footer {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: #6f7a94;
+        font-size: 12px;
+        user-select: none;
+        left: 0;
+        right: 0;
+      }
+    </style>
+    <script type="module" crossorigin src="/space-shooter/assets/index-D80uFje2.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div class="footer">Controls: ← → move, Space shoot • Max 10 shots • 60s limit</div>
+  </body>
+</html>
